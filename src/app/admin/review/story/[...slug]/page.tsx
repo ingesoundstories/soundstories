@@ -135,7 +135,7 @@ export default function Story({ params }: { params: { slug: string } }) {
                   )}
                   <div className={styles.story__author}>
                     <Paragraph>
-                      Verhaal geschreven door {story?.author}
+                      Verhaal geschreven door <b>{story?.author}</b>
                     </Paragraph>
 
                     <Paragraph>

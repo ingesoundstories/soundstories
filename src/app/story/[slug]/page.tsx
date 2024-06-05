@@ -137,7 +137,7 @@ export default function Story({ params }: { params: { slug: string } }) {
             <div className={styles.story__origin}>
               {story?.originText && <Paragraph>{story?.originText}</Paragraph>}
               <div className={styles.story__author}>
-                <Paragraph>Verhaal geschreven door {story?.author}</Paragraph>
+                <Paragraph>Verhaal geschreven door <b>{story?.author}</b></Paragraph>
 
                 <Paragraph>
                   Gepubliceerd op {date ? date : "Niet beschikbaar"}

@@ -16,7 +16,7 @@ export default function Write() {
   return (
     <MainLayout className="write__container">
       <PageTitle
-        title="Ook je verhaaltje op SoundStories? Stuur het in en ik zet het er - misschien - op!"
+        title="Verhaal indienen"
         paddingBottom
       />
       <div
