@@ -73,7 +73,7 @@ export default function Home() {
           ))}
         </div>
 
-        {reviewedStories?.length && reviewedStories?.length > 8 ? (
+        {reviewedStories?.length && reviewedStories?.length > 10 ? (
           <Link href={`/stories/${2}`}>
             <Pagination disabled={true} maxIndex={3} />
           </Link>

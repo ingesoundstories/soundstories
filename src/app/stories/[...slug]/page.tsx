@@ -17,7 +17,7 @@ export default function Page({
   params: { slug: { index: string; searchTerm?: string } };
 }) {
   const { reviewedStories } = useStories();
-  const storiesPerPage = 8;
+  const storiesPerPage = 10;
   const searchTerm = params.slug[1];
 
   const filterStories = (story: Verhaal) => {
